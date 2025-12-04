@@ -4,6 +4,7 @@ This is a solution developed for the Kaggle House Prices: Advanced Regression Te
 The core philosophy of this solution anchors on robustness through ensemble diversity. By integrating regularized linear models (Lasso, Ridge, ElasticNet) with Gradient Boosted Decision Trees (LightGBM, XGBoost, CatBoost) through a multi-stage stacking strategy, the system effectively captures both broad linear trends and intricate non-linear feature interactions while minimizing overfitting. The current score stands at 0.12181, representing top-tier performance among publicly available notebooks.The model's current performance is constrained by the limited size of the training dataset. However, I am confident that if this architecture were extended to tasks with more substantial data availability, it would achieve significantly better performance.
 
 The pipeline consists of four distinct phases: Advanced Preprocessing, Hybrid Modeling, Bayesian Optimization, and Hierarchical Ensembling.
+https://www.kaggle.com/code/mengqingcncug/wmq-kaggle-advanced-regression-techniques
 
 ## Feature Engineering
 Feature Engineering(preprocess)comprises four core mechanisms:
